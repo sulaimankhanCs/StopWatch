@@ -30,7 +30,7 @@ function App() {
     <>
    <LoginForm/>
      <div className="App">  
-    <h1>Stop Watch</h1>
+    <h1>Stop Watch App</h1>
     <h1 className='clock'>{watch}</h1>
       <button className='start' disabled={started} onClick={startWatch} >START</button>
       <button className='stop'  onClick={stopWatch} >STOP</button>
