@@ -28,7 +28,7 @@ function App() {
 
   return (
     <>
-   {/* <LoginForm/> */}
+   <LoginForm/>
      <div className="App">  
     <h1>Stop Watch</h1>
     <h1 className='clock'>{watch}</h1>
