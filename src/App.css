@@ -1,11 +1,74 @@
 .App {
   text-align: center;
+  color: darkred;
+  font-family: fantasy;
+  font-size: xx-large;
+  padding: 20px;
+  width: 100%;
+  height: 50%;
+  margin: auto;
+  background-color: darkkhaki;
+  margin-top: 50px;
+  border-radius: 50px;
+}
+body{
+  background-color: #32353b;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+
+.start {
+  height: 80px;
+  width: 80px;
+  font-size: medium;
+  font-weight: bold;
+  border-radius: 50%;
+  margin: 15px;
+  background-color: green;
+  color: white;
+}
+.stop {
+  height: 80px;
+  width: 80px;
+  font-size: medium;
+  font-weight: bold;
+  border-radius: 50%;
+  margin: 15px;
+  background-color: red;
+  color: white;
+}
+.reset {
+  height: 80px;
+  width: 80px;
+  font-size: medium;
+  font-weight: bold;
+  border-radius: 50%;
+  margin: 15px;
+  background-color: rgb(245, 163, 10);
+  color: white;
+}
+.start:disabled{
+  background-color: gray;
+}
+.clock {
+  height: 170px;
+  width: 170px;
+  margin: auto;
+  margin-bottom: 50px;
+  border: 3px solid black;
+  border-radius: 50%;
+  background-color: teal;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

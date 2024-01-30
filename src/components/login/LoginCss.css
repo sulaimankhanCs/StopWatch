@@ -1,0 +1,129 @@
+html, body {
+    margin: 1px;
+}
+
+body{
+    background-color: rgb(209, 202, 204);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-heading{
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-family: 'Bungee Spice', sans-serif;
+    font-size:xx-large;
+}
+.main-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    margin: auto;
+    border-radius: 20px;
+    height: 80vh;
+
+}
+.section1{
+    display: flex;
+    width: 50%;
+    /* border: 1px solid black; */
+    height: 34em;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: white;
+
+    
+}
+.section2{
+    display: flex;
+    width: 50%;
+    height: 34em;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(238, 61, 61);
+    color: white;
+    padding: 80px;
+    box-sizing: border-box;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+
+
+}
+img{
+    margin: 7px;
+    width: 50px;
+}
+h1{
+    font-family: 'Lemon', serif;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+input {
+    padding: 15px;
+    margin: 6px;
+    width: 130%;
+    background-color: lightgray;
+    border-radius: 5px;
+    border: none;
+}
+.login_btn{
+    padding: 10px;
+    margin: 6px;
+    width: 80%;
+    background-color:chocolate;
+    border-radius: 20px;
+    border: none;
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+}
+@media  (max-width: 550px) {
+    .main-div {
+        flex-direction: column; /* Change to column for mobile and smaller screens */
+    }
+
+    .section1 {
+        height: 80%;
+        width: 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+
+        input{
+            width: 100%;
+        }
+        
+    }
+    .section2{
+        height: 40%;
+        width: 100%;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 0px;
+        padding: 10px;
+        height: 300px;
+       
+    }
+.main-div{
+    height: auto;
+}
+}
+@media (min-width: 551px) and (max-width: 900px) {
+    .section2 {
+        padding: 10px ;
+    }
+}
